@@ -20,7 +20,7 @@ header h1 {
 header h1 a {
     color:darkslategray;
     text-decoration: none; 
-    padding: 20px 35px 20px 0;
+    padding: 20px 5px 20px 40px;
 }
 header nav ul {
     display: flex;
@@ -29,7 +29,7 @@ header nav ul {
     align-items:flex-end;
     list-style: none;
     padding-right: 30px;
-    margin-left: 50px;
+    margin-left: 600px;
 }
 header nav ul li a {
     text-decoration: none;
@@ -37,9 +37,13 @@ header nav ul li a {
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     color: #BCF2F3;
-    padding: 10px 30px;
+    padding: 10px 10px;
     margin-right: 10px;
     border-bottom: 3px solid #BCF2F3;
+}
+
+main {
+    background-color: #BCF2F3;
 }
 .hero {
     height: 200px;
@@ -47,7 +51,7 @@ header nav ul li a {
     background-size:cover;
 }
   .hero p {
-      color:darkslategray;
+      color: darkslategray;
       background-color: #BCF2F3;
       font-size: 45px;
       padding: 10px;
@@ -55,5 +59,43 @@ header nav ul li a {
       margin-top: 100px;
       margin-right: 80px;
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      
-  }  
+}  
+.about-me-contact-me {
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 200px;
+}
+.about-me-contact-me h2 {
+    width: 15%;
+    text-align: right;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    color: darkslategray;
+    border-right: 3px solid darkslategray;
+    padding: 5px 20px 50px 80px;
+    
+}
+.about-me-contact-me p {
+    width: 80%;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-left: 0px;
+}
+.about-me-contact-me a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: darkslategray;
+    padding: 10px 0px;
+    margin-right: 10px;
+    border-bottom: 3px solid darkslategray;
+}
+footer {
+    display: flex;
+    margin: 40px;
+    width: 85%;
+    justify-content: space-around;
+}
