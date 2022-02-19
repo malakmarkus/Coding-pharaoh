@@ -19,3 +19,4 @@ THEN I am presented with a responsive layout that adapts to my viewport.
 
 Deployed URL: https://malakmarkus.github.io/Coding-pharaoh/ 
 GitHub Repo URL:https://github.com/malakmarkus/Coding-pharaoh
+![Screenshot 2022-02-19 16 48 34](https://user-images.githubusercontent.com/94266004/154820262-7a92edbe-fbe0-4978-bb41-6f6ca66430a4.jpeg)
