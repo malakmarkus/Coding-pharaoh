@@ -160,4 +160,73 @@ footer {
       font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+    
+    header h1 {
+        width: 50%;
+        text-align: center;
+        margin:auto;
+    }
+    
+    header nav ul {
+        margin-top: auto;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-left:auto
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+        text-align: center;
+    }
+    .hero p {
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        margin: 50px 0px;
+    }
+    .about-me-contact-me {
+        height: fit-content;
+        margin: 10px;
 
+    }
+    .about-me-contact-me h2 {
+        font-size: 25px;
+        margin:auto;
+        padding: 15px;
+    }
+    .about-me-contact-me p {
+        width: fit-content;
+        height: fit-content;
+        margin: 30px 20px 0px 20px;
+
+
+    }
+    .work { 
+        height: fit-content;
+
+    }
+    .work h2 {
+        font-size: 25px;
+        text-align: center;
+        margin:auto;
+        padding: 15px;
+        border-bottom: 3px solid darkslategray;
+        border-right: none;
+    }
+    .work-container {
+        width:fit-content
+
+    }
+    .work-item {
+        width: 45%;
+
+    }
+
+}
